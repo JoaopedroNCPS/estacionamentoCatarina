@@ -1,0 +1,27 @@
+{
+  "name": "estacionamentocatarinaa",
+  "version": "1.0.0",
+  "main": "api/server.js",
+  "scripts": {
+    "dev": "npx nodemon api/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JoaopedroNCPS/estacionamento.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/JoaopedroNCPS/estacionamento/issues"
+  },
+  "homepage": "https://github.com/JoaopedroNCPS/estacionamento#readme",
+  "description": "",
+  "dependencies": {
+    "@prisma/client": "^6.16.0",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "prisma": "^6.16.0"
+  }
+}
